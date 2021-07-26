@@ -6,11 +6,11 @@
 
 <!-- Start CSS -->
     <!-- DataTables CSS -->
-    <link href="{{ asset('assets/plugins/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('assets/plugins/datatables/buttons.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ secure_asset('assets/plugins/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ secure_asset('assets/plugins/datatables/buttons.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
     
     <!-- Responsive Datatable CSS -->
-    <link href="{{ asset('assets/plugins/datatables/responsive.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ secure_asset('assets/plugins/datatables/responsive.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
 
     {{-- toastr --}}
 
@@ -95,29 +95,29 @@
 @section('js')
 
     <!-- Required Datatable JS -->
-    <script src="{{ asset('assets/plugins/datatables/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/datatables/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/dataTables.bootstrap4.min.js') }}"></script>
 
     <!-- Buttons Examples -->
-    <script src="{{ asset('assets/plugins/datatables/dataTables.buttons.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/datatables/buttons.bootstrap4.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/datatables/jszip.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/datatables/pdfmake.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/datatables/vfs_fonts.js') }}"></script>
-    <script src="{{ asset('assets/plugins/datatables/buttons.html5.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/datatables/buttons.print.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/datatables/buttons.colVis.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/dataTables.buttons.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/buttons.bootstrap4.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/jszip.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/pdfmake.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/vfs_fonts.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/buttons.html5.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/buttons.print.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/buttons.colVis.min.js') }}"></script>
     
     <!-- Responsive Examples -->
-    <script src="{{ asset('assets/plugins/datatables/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/datatables/responsive.bootstrap4.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/dataTables.responsive.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/responsive.bootstrap4.min.js') }}"></script>
 
     <!-- Sweet-Alert JS -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
    <!-- Confirm init JS -->
-   <script src="{{ asset('assets/plugins/jquery-confirm/js/jquery-confirm.js') }}"></script>
-   <script src="{{ asset('assets/js/init/confirm-init.js') }}"></script>
+   <script src="{{ secure_asset('assets/plugins/jquery-confirm/js/jquery-confirm.js') }}"></script>
+   <script src="{{ secure_asset('assets/js/init/confirm-init.js') }}"></script>
 
     <!-- Función DataTable -->
     <script>
