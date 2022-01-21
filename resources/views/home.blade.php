@@ -4,7 +4,7 @@
 
 @section('css')
     <!-- Datepicker CSS -->
-    <link href="{{asset_secure('assets/plugins/datepicker/datepicker.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{secure_asset('assets/plugins/datepicker/datepicker.min.css') }}" rel="stylesheet" type="text/css">
     
 @endsection
 
