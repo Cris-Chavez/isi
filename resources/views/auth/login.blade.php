@@ -95,7 +95,7 @@
     <script src="{{ secure_asset('assets/js/sidebar-menu.js') }}"></script>
 
     <!-- Main JS -->
-    <script src="{{ secure_secure_asset('assets/js/main.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/main.js') }}"></script>
     <!-- End JS -->
 
 </body>
