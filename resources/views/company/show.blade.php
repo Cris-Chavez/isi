@@ -19,7 +19,7 @@
                         <div class="xp-social-profile-img">
                             <div class="row">
                                 <div class="col-12 px-1">
-                                    <img src="{{ secure_asset('assets/images/ui-images/por2.jpg') }}"  height="100" width="100%" alt="img">
+                                    <img src="{{ asset('assets/images/ui-images/por2.jpg') }}"  height="100" width="100%" alt="img">
                                 </div>
                             </div>
                         </div>
@@ -32,8 +32,8 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="xp-social-profile-avatar text-center">
-                                        <img src="{{ secure_asset($company->logo) }}" alt="user-profile" class="rounded-circle mx-auto d-block mt-n5" height="100" height="200">
-                                        {{-- <img class="rounded-circle mx-auto d-block" id="imagePreview" width="200" height="200" src="{{ secure_asset('assets\images\avatar\no-logo.png') }}" alt="User Avatar"> --}}
+                                        <img src="{{ asset($company->logo) }}" alt="user-profile" class="rounded-circle mx-auto d-block mt-n5" height="100" height="200">
+                                        {{-- <img class="rounded-circle mx-auto d-block" id="imagePreview" width="200" height="200" src="{{ asset('assets\images\avatar\no-logo.png') }}" alt="User Avatar"> --}}
 
                                     </div>
                                 </div>

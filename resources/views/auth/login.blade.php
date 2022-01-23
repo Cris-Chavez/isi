@@ -12,12 +12,12 @@
     <title>Prueba Técnica para Empressa ISI</title>
 
     <!-- Fevicon -->
-    <link rel="shortcut icon" href="{{ secure_asset('assets/images/isi-ico.ico') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/images/isi-ico.ico') }}">
 
     <!-- Start CSS -->
-    <link href="{{ secure_asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ secure_asset('assets/css/icons.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ secure_asset('assets/css/style.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/css/icons.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" type="text/css">
     <!-- End CSS -->
 
 </head>
@@ -86,16 +86,16 @@
     <!-- End XP Container -->
 
     <!-- Start JS -->        
-    <script src="{{ secure_asset('assets/js/jquery.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/popper.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/modernizr.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/detect.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/jquery.slimscroll.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/sidebar-menu.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/modernizr.min.js') }}"></script>
+    <script src="{{ asset('assets/js/detect.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.slimscroll.js') }}"></script>
+    <script src="{{ asset('assets/js/sidebar-menu.js') }}"></script>
 
     <!-- Main JS -->
-    <script src="{{ secure_asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
     <!-- End JS -->
 
 </body>

@@ -14,18 +14,18 @@
     </title>
 
     <!-- Fevicon -->
-    <link rel="shortcut icon" href="{{ secure_asset('assets/images/isi-ico.ico') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/images/isi-ico.ico') }}">
 
     <!-- Start CSS -->
     <!-- Chartist Chart CSS -->
-    <link rel="stylesheet" href="{{ secure_asset('assets/plugins/chartist-js/chartist.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/chartist-js/chartist.min.css') }}">
 
     <!-- Datepicker CSS -->
-    <link href="{{ secure_asset('assets/plugins/datepicker/datepicker.min.css') }}" rel="stylesheet" type="text/css">   
+    <link href="{{ asset('assets/plugins/datepicker/datepicker.min.css') }}" rel="stylesheet" type="text/css">   
 
-    <link href="{{ secure_asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ secure_asset('assets/css/icons.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ secure_asset('assets/css/style.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/css/icons.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" type="text/css">
 
     @yield('css')
     
@@ -64,7 +64,7 @@
 
                 <!-- Start XP Logobar -->
                 <div class="xp-logobar text-center">
-                    <a href="{{ route('home') }}" class="xp-logo"><img src="{{ secure_asset('assets/images/isi.jpg') }}" class="img-fluid" alt="logo"></a>
+                    <a href="{{ route('home') }}" class="xp-logo"><img src="{{ asset('assets/images/isi.jpg') }}" class="img-fluid" alt="logo"></a>
                 </div>
                 <!-- End XP Logobar -->
 
@@ -131,7 +131,7 @@
                                 <span class="text-white">{{ Auth::user()->email }}</span>
                                 <li class="list-inline-item mr-0">
                                     <div class="dropdown xp-userprofile">
-                                        <a class="dropdown-toggle" href="#" role="button" id="xp-userprofile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{ secure_asset(Auth::user()->avatar) }}" alt="user-profile" class="rounded-circle img-fluid"><span class="xp-user-live"></span></a>
+                                        <a class="dropdown-toggle" href="#" role="button" id="xp-userprofile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{ asset(Auth::user()->avatar) }}" alt="user-profile" class="rounded-circle img-fluid"><span class="xp-user-live"></span></a>
 
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="xp-userprofile">
                                             <a class="dropdown-item py-3 text-white text-center font-16" href="#">Acciones</a>
@@ -185,30 +185,30 @@
     <!-- End XP Container -->
 
     <!-- Start JS -->        
-    <script src="{{ secure_asset('assets/js/jquery.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/popper.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/modernizr.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/detect.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/jquery.slimscroll.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/sidebar-menu.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/modernizr.min.js') }}"></script>
+    <script src="{{ asset('assets/js/detect.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.slimscroll.js') }}"></script>
+    <script src="{{ asset('assets/js/sidebar-menu.js') }}"></script>
 
     <!-- Chartist Chart JS -->
-    <script src="{{ secure_asset('assets/plugins/chartist-js/chartist.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/plugins/chartist-js/chartist-plugin-tooltip.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/chartist-js/chartist.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/chartist-js/chartist-plugin-tooltip.min.js') }}"></script>
 
     <!-- To Do List JS -->
-    <script src="{{ secure_asset('assets/js/init/to-do-list-init.js') }}"></script>
+    <script src="{{ asset('assets/js/init/to-do-list-init.js') }}"></script>
 
     <!-- Datepicker JS -->
-    <script src="{{ secure_asset('assets/plugins/datepicker/datepicker.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/plugins/datepicker/i18n/datepicker.en.js') }}"></script>
+    <script src="{{ asset('assets/plugins/datepicker/datepicker.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/datepicker/i18n/datepicker.en.js') }}"></script>
 
     <!-- Dashboard JS -->
-    <script src="{{ secure_asset('assets/js/init/dashborad.js') }}"></script>
+    <script src="{{ asset('assets/js/init/dashborad.js') }}"></script>
 
     <!-- Main JS -->
-    <script src="{{ secure_asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
     <!-- End JS -->    
 
     @yield('js')

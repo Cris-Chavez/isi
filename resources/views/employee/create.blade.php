@@ -91,7 +91,7 @@
                             
                             <div class="col-md-4">
                                 <div class="widget-user-image" style="text-align: center">
-                                    <img class="rounded-circle mx-auto d-block" id="imagePreview" width="200" height="200" src="{{ secure_asset('assets\images\avatar\no-photo.jpg') }}" alt="User Avatar">
+                                    <img class="rounded-circle mx-auto d-block" id="imagePreview" width="200" height="200" src="{{ asset('assets\images\avatar\no-photo.jpg') }}" alt="User Avatar">
                                 </div>
                             </div>    
                             
