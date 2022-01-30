@@ -42,7 +42,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h3 class="text-center mt-0 m-b-15">
-                                    <a href="" class="xp-web-logo"><img src="assets/images/isi.jpg" height="80" alt="logo"></a>
+                                    <a href="" class="xp-web-logo"><img src="{{ asset('assets/images/isi.jpg') }}" height="80" alt="logo"></a>
                                 </h3>
                                 <div class="p-3">
                                     <form action="{{ route('login') }}" method="POST"> 
